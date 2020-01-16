@@ -1,76 +1,76 @@
 {
   "MessageID": {
-    "name": "消息ID",
+    "name": "MessageID",
     "data": 1,
-    "info": "船位报告"
+    "info": "Ship Position Report"
   },
   "DataIndicator": {
-    "name": "转发指示符",
+    "name": "Forward Indicator",
     "data": 0,
-    "info": "默认"
+    "info": "Default"
   },
   "UserID": {
-    "name": "用户ID(MMSI)",
+    "name": "UserID(MMSI)",
     "data": 356248000,
     "info": 356248000
   },
   "NaviStatus": {
-    "name": "导航状态",
+    "name": "NavStatus",
     "data": 0,
-    "info": "发动机使用中"
+    "info": "Under way using Engine"
   },
   "ROT": {
-    "name": "旋转速率",
+    "name": "ROT",
     "data": "0°/min",
     "info": "0°/min"
   },
   "SOG": {
-    "name": "地面航速",
-    "data": "0节",
-    "info": "0节"
+    "name": "SOG",
+    "data": "0 section",
+    "info": "0 section"
   },
   "Accuracy": {
-    "name": "地面航速",
+    "name": "Accuracy",
     "data": 0,
-    "info": "高(<10m)"
+    "info": "High(<10m)"
   },
   "Location": {
-    "name": "坐标",
+    "name": "Coordinate",
     "data": [118.07354333333333, 24.502496666666666],
     "info": "E 118°4.4126′ , N 24°30.1498′"
   },
   "COG": {
-    "name": "地面航线",
+    "name": "COG",
     "data": "228.4°",
     "info": "228.4°"
   },
   "Heading": {
-    "name": "实际航向",
+    "name": "HDT",
     "data": "207°",
     "info": "207°"
   },
   "Second": {
-    "name": "时戳",
+    "name": "timestamp",
     "data": 18,
     "info": "18 seconds past the minute"
   },
   "RegionalApplication": {
-    "name": "特定操纵指示符",
+    "name": "specific indicator",
     "data": 0,
-    "info": "不可用"
+    "info": "Unavailable"
   },
   "Spare": {
-    "name": "备用",
+    "name": "spare",
     "data": 0,
-    "info": "未使用"
+    "info": "Unused"
   },
   "RAIM": {
     "name": "RAIM",
     "data": 0,
-    "info": "RAIM未使用"
+    "info": "RAIM not used"
   },
   "CommunicationState": {
-    "name": "通信状态",
+    "name": "CommStatus",
     "data": "0000000100011100101",
     "info": "SOTDMA 4:57 UTC"
   },
