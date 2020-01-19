@@ -74,5 +74,6 @@
     "data": "0000000100011100101",
     "info": "SOTDMA 4:57 UTC"
   },
-  "text": "!AIVDM,1,1,,A,15Cgah00008LOnt>1Cf`s6NT00SU,0*3D"
+  "text": "!AIVDM,1,1,,A,15Cgah00008LOnt>1Cf`s6NT00SU,0*3D",
+  "decoded": true
 }

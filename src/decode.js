@@ -471,6 +471,9 @@ function safeConfirm(bitMessage) {
 export function decodeMessage(bitMessage) {
   let info = {};
   let id = parseInt(bitMessage.slice(0, 6), 2); // Identifier for this message
-  info = classifyID(id, bitMessage); // Sort messages for different processing
+  if (id < 4) {
+    info = classifyID(id, bitMessage);
+    info.decoded = true;
+  } else info.decoded = false; // Sort messages for different processing
   return info;
 }
